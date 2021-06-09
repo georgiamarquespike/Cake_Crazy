@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.container-fluid {
+    padding: 0;
+}
+.nav {
+    text-align: center;
+    background-color: rgba(250, 180, 228, 1);
+    width: 100%;
+    display: inline-block;
+}
+.nav-ul {
+    width: 90%;
+    list-style-type:none;
+    margin: 0 auto;
+}
+.nav-list  {
+    margin: 0 auto;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2rem;
+    padding: 2rem; 
+    margin: 0 3rem;
+    display: inline-block;
+    width: 15%;  
+}
+.header{
+	background-image: url("headerimg.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: rgba(255, 255, 255, 0.2);
+	background-blend-mode: overlay;
+	position: relative;
+	padding: 10rem 0;
+    background-repeat: no-repeat;
+}
+.h1, .h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+.h2 {
+    font-family: 'Raleway', sans-serif;
+}
+.loginspace {
+    padding: 3rem 0;
+    background-color: rgba(250, 180, 228, 1);
+    
+   
+}
+.login {
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid black;
+    background-color: white;
+
+}
+.createacc {
+    display: none;;
+}
+.invalid-email{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    display: none;
+    
+}

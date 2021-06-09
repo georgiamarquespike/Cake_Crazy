@@ -1,0 +1,108 @@
+.container-fluid {
+    padding: 0;
+}
+
+.nav {
+    text-align: center;
+    background-color: rgba(250, 180, 228, 1);
+    width: 100%;
+    display: inline-block;
+}
+
+.nav-ul {
+    width: 90%;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.nav-list {
+    margin: 0 auto;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0 3rem;
+    display: inline-block;
+    width: 15%;
+
+}
+.h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.label {
+    margin: 0 0 1rem 3rem ;
+    font-size: 1.5rem;
+}
+.cake-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 5rem 2rem 5rem 2rem;
+
+  
+}
+
+.pic {
+    max-width: 100%;
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    display: block;
+    max-height: 100%;
+    margin: 0 auto;
+    min-height: 400px;
+
+}
+.c-images{
+    max-height: 400px;
+    width: 100%;
+}
+
+.exit_button{
+    color: black;
+    margin-top: 1rem;
+    font-weight: 900;
+    background-color: pink;
+}
+.choc , .h3_1{
+    background-color: rgba(100, 167, 160, 0.3 )  
+    
+}
+.recipes {
+    display: none;
+    max-height: 700px;
+    background-color: white;
+    margin-top: 1rem;
+}
+.Ingredients {
+    max-height: 200px;
+    overflow: scroll;
+    background-color:white;
+    border: 1px solid black;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    margin-bottom: -1rem;  
+}
+
+.main-recipe {
+  height: 1rem;
+    overflow: scroll;
+    max-height: 600px;
+    background-color:white;
+    border: 1px solid black;
+ padding-bottom: 2rem;
+ padding-top: 1rem;
+ padding-right: 1.5rem;
+ min-height:30rem;
+
+}
+
+.center-text{
+    text-align: center;
+}
